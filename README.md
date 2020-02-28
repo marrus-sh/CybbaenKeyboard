@@ -29,7 +29,7 @@ The Cybæ̈n keyboard will be available under the English category.
 
 + To output a standalone `˙` or `¨`, type the corresponding dead key and press space.
 
-+ The caps lock key switches the keyboard layout to Runic. Pressing option while caps lock is activated will provide Latin equivalents to Runic characters.
++ The caps lock key switches the keyboard layout to Runic. Pressing shift while caps lock is activated will provide Latin equivalents to Runic characters.
 
 + There is no ASCII apostrophe key. ASCII hyphen­‑minus is located at Shift+Option+`7`.
 
