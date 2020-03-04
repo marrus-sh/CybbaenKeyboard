@@ -27,13 +27,23 @@ The Cybæ̈n keyboard will be available under the English category.
 
 + The keyboard is the same as a typical US keyboard layout when the Command or Control key is held down.
 
++ The `ı` produced by typing Option+`Y` is dotless.
+Use the `˙` dead key to produce an ordinary ASCII dotted `i`.
+
 + To output a standalone `˙` or `¨`, type the corresponding dead key and press space.
 
-+ The caps lock key switches the keyboard layout to Runic. Pressing shift while caps lock is activated will provide Latin equivalents to Runic characters.
++ The caps lock key switches the keyboard layout to Runic.
+Pressing shift while caps lock is activated will provide Latin equivalents to Runic characters.
+Use Option to switch to alternate runic characters, or Latin capitals.
 
-+ There is no ASCII apostrophe key. ASCII hyphen­‑minus is located at Shift+Option+`7`.
++ The hyphen character located at Shift+`ʼ` is a shy hyphen, followed by a non­‑breaking hyphen.
+This produces an intentional double­‑hyphen when a line break occurs at its position.
+Be wary when deleting these characters to ensure you remove both (if desired).
 
-+ Option+Space produces a nonbreaking thin space, for use when padding punctuation (for example, in the French tradition).
++ ASCII hyphen­‑minus is located at Shift+Option+`ʼ`.
+
++ The underscore is located at Shift+Space.
+Option+Space produces a nonbreaking thin space, for use when padding punctuation (for example, in the French tradition).
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
@@ -48,6 +58,18 @@ Be cautious when typing these characters prior to their formal addition.
 They are included here as mere placeholders.
 
 ## Changelog
+
++ **1.1:**
+
+	+ `Ȝ` is now vowellike.
+
+	+ Removed `Å` and moved `ẞ` to take its place, with other changes in the punctuation region.
+
+	+ Corresponding changes to Runic, especially to alt forms.
+
+	+ Switched `#` and `&`
+
+	+ Vowels can now take dots in addition to diæreses.
 
 + **1.0:**
 Initial release.
