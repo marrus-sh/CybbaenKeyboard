@@ -10,6 +10,8 @@
 	<string>1.1</string>
 	<key>KLInfo_Cybbaen</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.cybbaenkeyboard.cybbaen</string>
 		<key>TISIntendedLanguage</key>

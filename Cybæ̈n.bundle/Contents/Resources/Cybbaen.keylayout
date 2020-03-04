@@ -266,7 +266,7 @@
 			<key code="6" output="ʒ"/>
 			<key code="7" output="ɣ"/>
 			<key code="8" output="k"/>
-			<key code="9" action="ſ"/>
+			<key code="9" output="ſ"/>
 			<key code="11" output="v"/>
 			<key code="12" action="ɔ"/>
 			<key code="13" action="ƿ"/>
@@ -355,7 +355,7 @@
 			<key code="6" output="Ʒ"/>
 			<key code="7" output="Ɣ"/>
 			<key code="8" output="K"/>
-			<key code="9" action="£"/>
+			<key code="9" output="£"/>
 			<key code="11" output="V"/>
 			<key code="12" action="Ɔ"/>
 			<key code="13" action="Ƿ"/>
