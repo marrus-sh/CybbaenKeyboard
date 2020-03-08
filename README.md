@@ -1,6 +1,6 @@
 # Cybæ̈n Keyboard for macOS
 
-This repository contains a handwritten macOS Keyboard Bundle for the Cybæ̈n English orthographies (Latin/Runic).
+This repository contains a handwritten macOS Keyboard Bundle for the Cybæ̈n [Kibben] English orthographies (Latin/Runic).
 It is a somewhat more niche successor to [Kibæn Keyboard](https://github.com/marrus-sh/KibaenKeyboard).
 
 This keyboard layout differs starkly in some ways from the traditional English one.
@@ -27,8 +27,8 @@ The Cybæ̈n keyboard will be available under the English category.
 
 + The keyboard is the same as a typical US keyboard layout when the Command or Control key is held down.
 
-+ The `ı` produced by typing Option+`Y` is dotless.
-Use the `˙` dead key to produce an ordinary ASCII dotted `i`.
++ The `ı` produced by typing Option+`Y` and `ȷ` produced by typing Option+`U` are dotless.
+Use the `˙` dead key to produce an ordinary ASCII dotted `i` and `j`.
 
 + To output a standalone `˙` or `¨`, type the corresponding dead key and press space.
 
@@ -40,6 +40,9 @@ Use Option to switch to alternate runic characters, or Latin capitals.
 This produces an intentional double­‑hyphen when a line break occurs at its position.
 Be wary when deleting these characters to ensure you remove both (if desired).
 
++ The runic characters `᛫⁠`, `᛬⁠`, and `᛭⁠` are followed by an invisible word joiner, which makes them non­‑breaking.
+This is expected behaviour for Kibben orthographies.
+
 + ASCII hyphen­‑minus is located at Shift+Option+`ʼ`.
 
 + The underscore is located at Shift+Space.
@@ -47,7 +50,7 @@ Option+Space produces a nonbreaking thin space, for use when padding punctuation
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
-+ The POUND SIGN `£` is given as the uppercase of LONG S `ſ`.
++ The POUND SIGN `£` is given as the uppercase of LONG S `ſ`, located at (Shift+)Option+`ẞ`.
 
 + At time of publication, not all characters output by this keyboard are formally in the Unicode Standard.
 The spurious characters are:
@@ -58,6 +61,14 @@ Be cautious when typing these characters prior to their formal addition.
 They are included here as mere placeholders.
 
 ## Changelog
+
++ **1.2:**
+
+	+ Removed `ᛌ` in favour of ordinary Runic punctuation.
+
+	+ Dotless J to match I.
+
+	+ Bugfix to ampersand.
 
 + **1.1:**
 

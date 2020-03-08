@@ -172,7 +172,7 @@
 			<key code="17" action="T"/>
 			<key code="18" output="!"/>
 			<key code="19" output="?"/>
-			<key code="20" output="&#0026;"/>
+			<key code="20" output="&#x0026;"/>
 			<key code="21" output="/"/>
 			<key code="22" output="+"/>
 			<key code="23" output="−"/>
@@ -288,7 +288,7 @@
 			<key code="29" output="⸡"/>
 			<key code="30" output="⸨"/>
 			<key code="31" action="ø"/>
-			<key code="32" action="j"/>
+			<key code="32" action="ȷ"/>
 			<key code="33" output="–"/>
 			<key code="34" action="œ"/>
 			<key code="35" output="f"/>
@@ -475,10 +475,10 @@
 			<key code="38" output="ᛇ"/>
 			<key code="39" output="ᚳ"/>
 			<key code="40" output="ᛝ"/>
-			<key code="41" output="᛬"/>
+			<key code="41" output="᛬⁠"/>
 			<key code="42" output="―"/>
 			<key code="43" output="ᚦ"/>
-			<key code="44" output="ᛌ"/>
+			<key code="44" output="᛫⁠"/>
 			<key code="45" output="ᚾ"/>
 			<key code="46" output="ᛗ"/>
 			<key code="47" output="ᚧ"/>
@@ -564,7 +564,7 @@
 			<key code="38" output="ƕ"/>
 			<key code="39" output="c"/>
 			<key code="40" output="ŋ"/>
-			<key code="41" output="&#x0022;"/>
+			<key code="41" output="ː"/>
 			<key code="42" output=" "/>
 			<key code="43" output="þ"/>
 			<key code="44" output="ʼ"/>
@@ -653,7 +653,7 @@
 			<key code="38" output="ᛳ"/>
 			<key code="39" output="ᛱ"/>
 			<key code="40" output="ᛜ"/>
-			<key code="41" output="᛫"/>
+			<key code="41" output="᛭⁠"/>
 			<key code="42" output="–"/>
 			<key code="43" output="ᚵ"/>
 			<key code="44" output="/"/>
@@ -742,10 +742,10 @@
 			<key code="38" output="Ƕ"/>
 			<key code="39" output="C"/>
 			<key code="40" output="Ŋ"/>
-			<key code="41" output="'"/>
+			<key code="41" output="&#x0022;"/>
 			<key code="42" output="—"/>
 			<key code="43" output="Þ"/>
-			<key code="44" output="­‑"/>
+			<key code="44" output="'"/>
 			<key code="45" output="N"/>
 			<key code="46" output="M"/>
 			<key code="47" output="Ð"/>
@@ -1178,9 +1178,10 @@
 			<when state="none" output="J"/>
 			<when state="Diaeresis" output="J̈"/>
 		</action>
-		<action id="j">
+		<action id="ȷ">
 			<when state="none" output="j"/>
 			<when state="Diaeresis" output="j̈"/>
+			<when state="Dot" output="j"/>
 		</action>
 		<action id="L">
 			<when state="none" output="L"/>
